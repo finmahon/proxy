@@ -12,7 +12,15 @@ module.exports={
     "target":"http://www.google.ie"
   },
   "/cmon":{
-    "name":"google",
+    "name":"cmon",
     "target":"https://psdev-mpas6im3edr3vywutlyeky52-evals-dev.mbaas1.tom.redhatmobile.com/application/id"
+  },
+  "/faughs":{
+    "name":"faughs",
+    "target":"http://faughs.ie/index.php/club-notes-12th-december-2017"
+  },
+  "/faughsurl":{
+    "name":"faughsurl",
+    "target":"http://faughs.ie/index.php"
   }
 }

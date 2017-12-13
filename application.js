@@ -5,7 +5,13 @@ var proxyTable=require("./proxyTable");
 var handler=require("./handler");
 
 app.get('/*',function(req,res,next) {
-  console.log('url: '+req.url)
+  console.log('get url: '+req.url)
+  next();
+});
+
+app.post('/*',function(req,res,next) {
+  console.log('post url: '+req.url)
+  console.log('post body: '+req.body)
   next();
 });
 
