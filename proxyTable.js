@@ -5,7 +5,7 @@ module.exports={
   },
   "/icare-auth":{
     "name":"icare authentication service",
-    "target":"http://fes-icare-auth-sos-online-dev.apps.sos.eu:8080/icare-auth"
+    "target":"http://fes-icare-auth-sos-online-dev.apps.sos.eu/icare-auth"
   },
   "/google":{
     "name":"google",
